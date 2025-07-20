@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="ci: add performance tests for linked list intersection">
-      <change afterPath="$PROJECT_DIR$/fastandslow/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastandslow/linkedListCycleDetection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="ci: add performance tests for linked list cycle detection">
+      <change afterPath="$PROJECT_DIR$/fastandslow/findLinkedListMiddleNode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
     "Python tests.Python tests for test_zeroStriping.TestZeroStripingSets.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feat/add-cycle-detection"
+    "git-widget-placeholder": "feat/return-middle-node"
   }
 }]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_zeroStriping.TestZeroStripingSets">
@@ -171,38 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753031592177</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add unit tests for two-pointer solution in largest container problem">
-      <option name="closed" value="true" />
-      <created>1753034127450</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1753034127450</updated>
-    </task>
-    <task id="LOCAL-00018" summary="update .gitignore to ignore workspace.xml and modify RunManager configuration for largest container tests">
-      <option name="closed" value="true" />
-      <created>1753034163427</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1753034163427</updated>
-    </task>
-    <task id="LOCAL-00019" summary="add performance tests for largest container solution and log results">
-      <option name="closed" value="true" />
-      <created>1753034249366</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1753034249366</updated>
-    </task>
-    <task id="LOCAL-00020" summary="refactor import statement for pairSumSorted module to use two-pointers package">
-      <option name="closed" value="true" />
-      <created>1753034584438</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1753034584438</updated>
     </task>
     <task id="LOCAL-00021" summary="fix: adjust sys.path for test_performance.py to ensure module imports work correctly">
       <option name="closed" value="true" />
@@ -564,14 +530,42 @@
       <option name="project" value="LOCAL" />
       <updated>1753052094706</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="feat: add cycle detection function for linked lists">
+      <option name="closed" value="true" />
+      <created>1753052712180</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1753052712180</updated>
+    </task>
+    <task id="LOCAL-00067" summary="test: add unit tests for linked list cycle detection">
+      <option name="closed" value="true" />
+      <created>1753052717826</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1753052717826</updated>
+    </task>
+    <task id="LOCAL-00068" summary="ci: add performance benchmark for linked list cycle detection">
+      <option name="closed" value="true" />
+      <created>1753052727208</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1753052727208</updated>
+    </task>
+    <task id="LOCAL-00069" summary="ci: add performance tests for linked list cycle detection">
+      <option name="closed" value="true" />
+      <created>1753052745100</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1753052745100</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add: implement zero striping algorithm for matrix" />
-    <MESSAGE value="add: implement unit tests and performance benchmarks for zero striping algorithm" />
-    <MESSAGE value="add: include performance tests for zero striping in CI configuration" />
-    <MESSAGE value="add: implement linked list reversal functionality" />
     <MESSAGE value="add: implement unit tests for linked list reversal functionality" />
     <MESSAGE value="add: implement performance benchmark for iterative linked list reversal" />
     <MESSAGE value="add: include performance tests for reverse linked list in CI configuration" />
@@ -593,6 +587,10 @@
     <MESSAGE value="test: add unit tests for linked list intersection function" />
     <MESSAGE value="test: add performance benchmark for linked list intersection function" />
     <MESSAGE value="ci: add performance tests for linked list intersection" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: add performance tests for linked list intersection" />
+    <MESSAGE value="feat: add cycle detection function for linked lists" />
+    <MESSAGE value="test: add unit tests for linked list cycle detection" />
+    <MESSAGE value="ci: add performance benchmark for linked list cycle detection" />
+    <MESSAGE value="ci: add performance tests for linked list cycle detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: add performance tests for linked list cycle detection" />
   </component>
 </project>
