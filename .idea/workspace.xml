@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="ci: add performance tests for remove_k_last_node function">
-      <change afterPath="$PROJECT_DIR$/linkedlistintersection/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedlistintersection/linkedListIntersection.py" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="ci: add performance tests for linked list intersection">
+      <change afterPath="$PROJECT_DIR$/fastandslow/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastandslow/linkedListCycleDetection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
     "Python tests.Python tests for test_zeroStriping.TestZeroStripingSets.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#9 on feat/add-kthlast-node"
+    "git-widget-placeholder": "feat/add-cycle-detection"
   }
 }]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_zeroStriping.TestZeroStripingSets">
@@ -171,38 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753031592177</updated>
-    </task>
-    <task id="LOCAL-00013" summary="refactor workspace.xml to improve formatting and structure">
-      <option name="closed" value="true" />
-      <created>1753033878449</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1753033878449</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add brute force solution to find the largest container of water">
-      <option name="closed" value="true" />
-      <created>1753033988384</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1753033988384</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add unit tests for brute force solution to largest container problem">
-      <option name="closed" value="true" />
-      <created>1753034037317</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1753034037317</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add two-pointer solution for largest container problem">
-      <option name="closed" value="true" />
-      <created>1753034087614</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1753034087614</updated>
     </task>
     <task id="LOCAL-00017" summary="add unit tests for two-pointer solution in largest container problem">
       <option name="closed" value="true" />
@@ -564,14 +532,42 @@
       <option name="project" value="LOCAL" />
       <updated>1753050253793</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="feat: add function to find intersection of two linked lists">
+      <option name="closed" value="true" />
+      <created>1753052060990</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1753052060990</updated>
+    </task>
+    <task id="LOCAL-00063" summary="test: add unit tests for linked list intersection function">
+      <option name="closed" value="true" />
+      <created>1753052082709</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1753052082709</updated>
+    </task>
+    <task id="LOCAL-00064" summary="test: add performance benchmark for linked list intersection function">
+      <option name="closed" value="true" />
+      <created>1753052089357</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1753052089357</updated>
+    </task>
+    <task id="LOCAL-00065" summary="ci: add performance tests for linked list intersection">
+      <option name="closed" value="true" />
+      <created>1753052094706</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1753052094706</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add: implement unit tests for verify_sudoku_board function" />
-    <MESSAGE value="add: implement performance benchmarking for verify_sudoku_board function" />
-    <MESSAGE value="add: include performance tests for verifySudokuBoard in CI configuration" />
-    <MESSAGE value="fix: correct subgrid_sets initialization in verify_sudoku_board function" />
     <MESSAGE value="add: implement zero striping algorithm for matrix" />
     <MESSAGE value="add: implement unit tests and performance benchmarks for zero striping algorithm" />
     <MESSAGE value="add: include performance tests for zero striping in CI configuration" />
@@ -593,6 +589,10 @@
     <MESSAGE value="test: add unit tests for remove_k_last_node function" />
     <MESSAGE value="test: add performance benchmark for remove_k_last_node function" />
     <MESSAGE value="ci: add performance tests for remove_k_last_node function" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: add performance tests for remove_k_last_node function" />
+    <MESSAGE value="feat: add function to find intersection of two linked lists" />
+    <MESSAGE value="test: add unit tests for linked list intersection function" />
+    <MESSAGE value="test: add performance benchmark for linked list intersection function" />
+    <MESSAGE value="ci: add performance tests for linked list intersection" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: add performance tests for linked list intersection" />
   </component>
 </project>
