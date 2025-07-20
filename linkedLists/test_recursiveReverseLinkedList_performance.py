@@ -16,11 +16,11 @@ def make_linked_list(size):
 
 def benchmark_recursive_reverse_linked_list():
     t = timeit.timeit(lambda: recursive_reversal(make_linked_list(1000)), number=10)
-    print(f"recursive_reversal 10000 nodes (10 runs): {t:.4f}s")
+    print(f"recursive_reversal 1000 nodes (10 runs): {t:.4f}s")
     with open("linkedLists/recursive_reverse_linked_list_performance.txt", "w") as f:
-        f.write(f"recursive_reversal 10000 nodes (10 runs): {t:.4f}s\n")
+        f.write(f"recursive_reversal 1000 nodes (10 runs): {t:.4f}s\n")
     with open("performance_results.txt", "a") as f:
-        f.write(f"recursive_reversal 10000 nodes (10 runs): {t:.4f}s\n")
+        f.write(f"recursive_reversal 1000 nodes (10 runs): {t:.4f}s\n")
 
 if __name__ == "__main__":
     benchmark_recursive_reverse_linked_list()
