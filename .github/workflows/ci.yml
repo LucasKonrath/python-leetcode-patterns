@@ -22,9 +22,10 @@ jobs:
     - name: Run unit tests
       run: |
         pytest twopointers/
+        pytest hashmapsandsets/
     - name: Run performance tests
       run: |
-        python twopointers/test_performance.py
+        python test_performance.py
     - name: Comment performance results on PR
       if: github.event_name == 'pull_request'
       uses: marocchino/sticky-pull-request-comment@v2

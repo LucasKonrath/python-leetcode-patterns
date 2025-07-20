@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="fix: adjust sys.path for test_performance.py to ensure module imports work correctly">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twopointers/test_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/twopointers/test_performance.py" afterDir="false" />
-    </list>
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add: update CI configuration to run performance tests for hashmaps and sets" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,22 +27,22 @@
     &quot;assignee&quot;: &quot;LucasKonrath&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LucasKonrath/python-leetcode-patterns.git",
-    "accountId": "3645b17a-8078-49c6-b865-b6b26e0945c4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LucasKonrath/python-leetcode-patterns.git&quot;,
+    &quot;accountId&quot;: &quot;3645b17a-8078-49c6-b865-b6b26e0945c4&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "LucasKonrath",
-    "repository": "python-leetcode-patterns"
+    &quot;owner&quot;: &quot;LucasKonrath&quot;,
+    &quot;repository&quot;: &quot;python-leetcode-patterns&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -59,14 +56,16 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for test_largestContainer.TestLargestContainer.executor": "Run",
     "Python tests.Python tests for test_pairSumSorted.TestPairSumSorted.executor": "Run",
+    "Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass.executor": "Run",
+    "Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses.executor": "Run",
     "Python tests.Python tests for test_palindrome.TestPalindrome.executor": "Run",
     "Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#3 on feat/perfomance-tests-container"
+    "git-widget-placeholder": "#4 on feat/add-test-pair-two-sum-hash"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_largestContainer.TestLargestContainer">
+  <component name="RunManager" selected="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass">
     <configuration name="Python tests for test_largestContainer.TestLargestContainer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-leetcode-patterns" />
       <option name="ENV_FILES" value="" />
@@ -82,18 +81,33 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_pairSumSorted.TestPairSumSorted" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-leetcode-patterns" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twopointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hashmapsandsets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pairSumSorted.TestPairSumSorted&quot;" />
+      <option name="_new_target" value="&quot;test_pairSumTwoSorted.TestPairSumUnsortedOnePass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-leetcode-patterns" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hashmapsandsets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -109,21 +123,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_palindrome.TestPalindrome&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_tripletSum.TestBruteForceTripletSum" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python-leetcode-patterns" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twopointers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_tripletSum.TestBruteForceTripletSum&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass" />
+        <item itemvalue="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses" />
         <item itemvalue="Python tests.Python tests for test_largestContainer.TestLargestContainer" />
         <item itemvalue="Python tests.Python tests for test_palindrome.TestPalindrome" />
         <item itemvalue="Python tests.Python tests for test_tripletSum.TestTripletSumSorted" />
-        <item itemvalue="Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum" />
-        <item itemvalue="Python tests.Python tests for test_pairSumSorted.TestPairSumSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -343,15 +342,98 @@
       <option name="project" value="LOCAL" />
       <updated>1753034700128</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add: implement unit tests for pair_sum_unsorted_two_passes function">
+      <option name="closed" value="true" />
+      <created>1753035402241</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035402241</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add: implement pair_sum_two_unsorted_two_pass function">
+      <option name="closed" value="true" />
+      <created>1753035556536</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035556536</updated>
+    </task>
+    <task id="LOCAL-00025" summary="refactor: update test cases to use pair_sum_two_unsorted_two_pass function">
+      <option name="closed" value="true" />
+      <created>1753035564673</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035564673</updated>
+    </task>
+    <task id="LOCAL-00026" summary="refactor: optimize pair_sum_two_unsorted_two_pass function to use a dictionary for index mapping">
+      <option name="closed" value="true" />
+      <created>1753035606941</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035606941</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add: implement pair_sum_two_unsorted_one_pass function for optimized pairing">
+      <option name="closed" value="true" />
+      <created>1753035644771</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035644771</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add: implement unit tests for pair_sum_two_unsorted_one_pass function">
+      <option name="closed" value="true" />
+      <created>1753035664800</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035664800</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add: implement performance benchmark for pair_sum_two_unsorted functions">
+      <option name="closed" value="true" />
+      <created>1753035712496</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035712496</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add: implement benchmark for pair_sum_two_unsorted functions">
+      <option name="closed" value="true" />
+      <created>1753035848446</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035848446</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add: implement performance benchmarks for pair sum and triplet sum functions">
+      <option name="closed" value="true" />
+      <created>1753035927239</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035927239</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add: update test_performance.py to include additional module paths for two pointers and hashmaps">
+      <option name="closed" value="true" />
+      <created>1753035946988</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035946988</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add: update CI configuration to run performance tests for hashmaps and sets">
+      <option name="closed" value="true" />
+      <created>1753035970412</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035970412</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add initial project configuration files for Python module" />
-    <MESSAGE value="add brute force solution for pair sum problem" />
-    <MESSAGE value="add unit tests for brute force solution in pair sum problem" />
-    <MESSAGE value="add optimized two-pointer solution for pair sum problem in sorted array" />
-    <MESSAGE value="add unit tests for pairSumSorted function in test_pairSumSorted.py" />
     <MESSAGE value="add CI configuration for Python package with unit test execution" />
     <MESSAGE value="add brute force solution for triplet sum problem" />
     <MESSAGE value="add function to check if a string is a palindrome" />
@@ -366,6 +448,17 @@
     <MESSAGE value="add performance tests for largest container solution and log results" />
     <MESSAGE value="refactor import statement for pairSumSorted module to use two-pointers package" />
     <MESSAGE value="fix: adjust sys.path for test_performance.py to ensure module imports work correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: adjust sys.path for test_performance.py to ensure module imports work correctly" />
+    <MESSAGE value="add: implement unit tests for pair_sum_unsorted_two_passes function" />
+    <MESSAGE value="add: implement pair_sum_two_unsorted_two_pass function" />
+    <MESSAGE value="refactor: update test cases to use pair_sum_two_unsorted_two_pass function" />
+    <MESSAGE value="refactor: optimize pair_sum_two_unsorted_two_pass function to use a dictionary for index mapping" />
+    <MESSAGE value="add: implement pair_sum_two_unsorted_one_pass function for optimized pairing" />
+    <MESSAGE value="add: implement unit tests for pair_sum_two_unsorted_one_pass function" />
+    <MESSAGE value="add: implement performance benchmark for pair_sum_two_unsorted functions" />
+    <MESSAGE value="add: implement benchmark for pair_sum_two_unsorted functions" />
+    <MESSAGE value="add: implement performance benchmarks for pair sum and triplet sum functions" />
+    <MESSAGE value="add: update test_performance.py to include additional module paths for two pointers and hashmaps" />
+    <MESSAGE value="add: update CI configuration to run performance tests for hashmaps and sets" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: update CI configuration to run performance tests for hashmaps and sets" />
   </component>
 </project>
