@@ -54,20 +54,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_largestContainer.TestLargestContainer.executor": "Run",
-    "Python tests.Python tests for test_pairSumSorted.TestPairSumSorted.executor": "Run",
-    "Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass.executor": "Run",
-    "Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses.executor": "Run",
-    "Python tests.Python tests for test_palindrome.TestPalindrome.executor": "Run",
-    "Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#4 on feat/add-test-pair-two-sum-hash"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_largestContainer.TestLargestContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pairSumSorted.TestPairSumSorted.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_palindrome.TestPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#4 on feat/add-test-pair-two-sum-hash&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass">
     <configuration name="Python tests for test_largestContainer.TestLargestContainer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-leetcode-patterns" />
