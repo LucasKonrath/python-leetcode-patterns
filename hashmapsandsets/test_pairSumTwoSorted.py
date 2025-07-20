@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import unittest
 from hashmapsandsets.pairSumTwoUnsorted import pair_sum_two_unsorted_two_pass, pair_sum_two_unsorted_one_pass
 
