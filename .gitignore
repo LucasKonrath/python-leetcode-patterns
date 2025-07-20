@@ -44,3 +44,5 @@ test-results/
 # Ignore performance results
 performance_results.txt
 
+# Ignore workspace file
+workspace.xml
