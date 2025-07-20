@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add initial project configuration files for Python module">
-      <change afterPath="$PROJECT_DIR$/twopointers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twopointers/pairSumSorted.py" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add CI configuration for Python package with unit test execution">
+      <change afterPath="$PROJECT_DIR$/twopointers/tripletSum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -44,11 +47,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_pairSumSorted.TestPairSumSorted.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Python tests for test_pairSumSorted.TestPairSumSorted" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-leetcode-patterns" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twopointers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pairSumSorted.TestPairSumSorted&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_pairSumSorted.TestPairSumSorted" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,11 +98,64 @@
       <option name="project" value="LOCAL" />
       <updated>1753031632245</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add brute force solution for pair sum problem">
+      <option name="closed" value="true" />
+      <created>1753031896791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753031896791</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add unit tests for brute force solution in pair sum problem">
+      <option name="closed" value="true" />
+      <created>1753031945624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753031945624</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add optimized two-pointer solution for pair sum problem in sorted array">
+      <option name="closed" value="true" />
+      <created>1753031969789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753031969789</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add unit tests for pairSumSorted function in test_pairSumSorted.py">
+      <option name="closed" value="true" />
+      <created>1753032016179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032016179</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add unit tests for pairSumSorted function in test_pairSumSorted.py">
+      <option name="closed" value="true" />
+      <created>1753032030287</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032030287</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add CI configuration for Python package with unit test execution">
+      <option name="closed" value="true" />
+      <created>1753032090212</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753032090212</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add initial project configuration files for Python module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add initial project configuration files for Python module" />
+    <MESSAGE value="add brute force solution for pair sum problem" />
+    <MESSAGE value="add unit tests for brute force solution in pair sum problem" />
+    <MESSAGE value="add optimized two-pointer solution for pair sum problem in sorted array" />
+    <MESSAGE value="add unit tests for pairSumSorted function in test_pairSumSorted.py" />
+    <MESSAGE value="add CI configuration for Python package with unit test execution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CI configuration for Python package with unit test execution" />
   </component>
 </project>
