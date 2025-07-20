@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="fix: adjust sys.path for test_performance.py to ensure module imports work correctly">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twopointers/test_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/twopointers/test_performance.py" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add: implement unit tests for pair_sum_unsorted_two_passes function">
+      <change afterPath="$PROJECT_DIR$/hashmapsandsets/pairSumTwoUnsorted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmapsandsets/test_pairSumTwoSorted.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashmapsandsets/test_pairSumTwoSorted.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +31,22 @@
     &quot;assignee&quot;: &quot;LucasKonrath&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LucasKonrath/python-leetcode-patterns.git",
-    "accountId": "3645b17a-8078-49c6-b865-b6b26e0945c4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LucasKonrath/python-leetcode-patterns.git&quot;,
+    &quot;accountId&quot;: &quot;3645b17a-8078-49c6-b865-b6b26e0945c4&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "LucasKonrath",
-    "repository": "python-leetcode-patterns"
+    &quot;owner&quot;: &quot;LucasKonrath&quot;,
+    &quot;repository&quot;: &quot;python-leetcode-patterns&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -63,7 +64,7 @@
     "Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#3 on feat/perfomance-tests-container"
+    "git-widget-placeholder": "feat/add-test-pair-two-sum-hash"
   }
 }]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_largestContainer.TestLargestContainer">
@@ -343,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753034700128</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add: implement unit tests for pair_sum_unsorted_two_passes function">
+      <option name="closed" value="true" />
+      <created>1753035402241</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1753035402241</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -366,6 +375,7 @@
     <MESSAGE value="add performance tests for largest container solution and log results" />
     <MESSAGE value="refactor import statement for pairSumSorted module to use two-pointers package" />
     <MESSAGE value="fix: adjust sys.path for test_performance.py to ensure module imports work correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: adjust sys.path for test_performance.py to ensure module imports work correctly" />
+    <MESSAGE value="add: implement unit tests for pair_sum_unsorted_two_passes function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: implement unit tests for pair_sum_unsorted_two_passes function" />
   </component>
 </project>
