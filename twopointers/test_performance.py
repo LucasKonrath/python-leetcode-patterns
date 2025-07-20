@@ -5,6 +5,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 import timeit
 from twopointers.pairSumSorted import bruteForce, pairSumSorted
 from twopointers.tripletSum import bruteForceTripletSum, tripletSumSorted
+from twopointers.largestContainer import largest_container_brute_force, largest_container_two_pointers
 import random
 
 def benchmark_pair_sum():
@@ -21,14 +22,23 @@ def benchmark_triplet_sum():
     opt_time = timeit.timeit(lambda: tripletSumSorted(nums), number=1)
     return bf_time, opt_time
 
+def benchmark_largest_container():
+    heights = [random.randint(1, 10000) for _ in range(1000)]
+    bf_time = timeit.timeit(lambda: largest_container_brute_force(heights), number=3)
+    tp_time = timeit.timeit(lambda: largest_container_two_pointers(heights), number=3)
+    return bf_time, tp_time
+
 def main():
     bf_pair, opt_pair = benchmark_pair_sum()
     bf_triplet, opt_triplet = benchmark_triplet_sum()
+    bf_container, tp_container = benchmark_largest_container()
     print(f"PairSum bruteForce: {bf_pair:.4f}s, pairSumSorted: {opt_pair:.4f}s")
     print(f"TripletSum bruteForce: {bf_triplet:.4f}s, tripletSumSorted: {opt_triplet:.4f}s")
+    print(f"LargestContainer bruteForce: {bf_container:.4f}s, twoPointers: {tp_container:.4f}s")
     with open("performance_results.txt", "w") as f:
         f.write(f"PairSum bruteForce: {bf_pair:.4f}s, pairSumSorted: {opt_pair:.4f}s\n")
         f.write(f"TripletSum bruteForce: {bf_triplet:.4f}s, tripletSumSorted: {opt_triplet:.4f}s\n")
+        f.write(f"LargestContainer bruteForce: {bf_container:.4f}s, twoPointers: {tp_container:.4f}s\n")
 
 if __name__ == "__main__":
     main()
