@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="fix: update performance benchmarks for recursive and iterative linked list reversal to 300 nodes">
-      <change beforePath="$PROJECT_DIR$/linkedLists/test_reverseLinkedList_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedLists/test_reverseLinkedList_performance.py" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="fix: update performance benchmark for iterative linked list reversal to 300 nodes">
+      <change afterPath="$PROJECT_DIR$/linkedLists/removeKLastNode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,14 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753031592177</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add brute force solution for triplet sum problem">
-      <option name="closed" value="true" />
-      <created>1753032234131</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1753032234131</updated>
     </task>
     <task id="LOCAL-00009" summary="add function to check if a string is a palindrome">
       <option name="closed" value="true" />
@@ -562,11 +555,18 @@
       <option name="project" value="LOCAL" />
       <updated>1753043739499</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="fix: update performance benchmark for iterative linked list reversal to 300 nodes">
+      <option name="closed" value="true" />
+      <created>1753043821746</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043821746</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add: implement performance benchmarks for pair sum and triplet sum functions" />
     <MESSAGE value="add: update test_performance.py to include additional module paths for two pointers and hashmaps" />
     <MESSAGE value="add: update CI configuration to run performance tests for hashmaps and sets" />
     <MESSAGE value="add: update test_pairSumTwoSorted.py to include module path adjustments and add test cases for pair_sum_two_unsorted functions" />
@@ -591,6 +591,7 @@
     <MESSAGE value="fix: adjust performance benchmark for recursive linked list reversal to 1000 nodes" />
     <MESSAGE value="fix: update performance benchmarks for recursive and iterative linked list reversal to 1000 nodes" />
     <MESSAGE value="fix: update performance benchmarks for recursive and iterative linked list reversal to 300 nodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: update performance benchmarks for recursive and iterative linked list reversal to 300 nodes" />
+    <MESSAGE value="fix: update performance benchmark for iterative linked list reversal to 300 nodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: update performance benchmark for iterative linked list reversal to 300 nodes" />
   </component>
 </project>
