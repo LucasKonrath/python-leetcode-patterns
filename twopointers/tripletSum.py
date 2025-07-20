@@ -14,7 +14,7 @@ def bruteForceTripletSum(nums: List[int]):
     return [list(triplet) for triplet in triplets]
 
 def tripletSumSorted(nums: List[int]) -> List[List[int]]:
-    triplets = []
+    triplets = set()
     nums.sort()
     for i in range(len(nums)):
         if nums[i] > 0:
@@ -22,19 +22,25 @@ def tripletSumSorted(nums: List[int]) -> List[List[int]]:
         if i > 0 and nums[i] == nums[i - 1]:
             continue
 
-        pairs = pair_sum_sorted_all_pairs(nums, i + 1, -nums[i]);
+        pairs = pair_sum_sorted_all_pairs(nums, i + 1, -nums[i])
         for pair in pairs:
-            triplets.append([nums[i]] + pair)
-    return triplets
+            triplet = tuple([nums[i]] + pair)
+            triplets.add(triplet)
+    return [list(triplet) for triplet in triplets]
 
-def pair_sum_sorted_all_pairs(nums: List[int], start: int, target: int) -> List[int]:
+def pair_sum_sorted_all_pairs(nums: List[int], start: int, target: int) -> List[List[int]]:
     pairs = []
     left, right = start, len(nums) - 1
-    while left <= right:
+    while left < right:
         sum = nums[left] + nums[right]
         if sum == target:
             pairs.append([nums[left], nums[right]])
             left += 1
+            right -= 1
+            while left < right and nums[left] == nums[left - 1]:
+                left += 1
+            while left < right and nums[right] == nums[right + 1]:
+                right -= 1
         elif sum < target:
             left += 1
         else:
