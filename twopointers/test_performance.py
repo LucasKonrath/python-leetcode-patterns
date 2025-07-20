@@ -11,6 +11,7 @@ def benchmark_pair_sum():
     return bf_time, opt_time
 
 def benchmark_triplet_sum():
+    random.seed(42)  # Set a fixed seed for reproducibility
     nums = [random.randint(-1000, 1000) for _ in range(1000)]
     bf_time = timeit.timeit(lambda: bruteForceTripletSum(nums), number=1)
     opt_time = timeit.timeit(lambda: tripletSumSorted(nums), number=1)
