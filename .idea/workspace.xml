@@ -67,7 +67,7 @@
     "git-widget-placeholder": "feat/add-test-pair-two-sum-hash"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_largestContainer.TestLargestContainer">
+  <component name="RunManager" selected="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass">
     <configuration name="Python tests for test_largestContainer.TestLargestContainer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-leetcode-patterns" />
       <option name="ENV_FILES" value="" />
@@ -83,18 +83,33 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_pairSumSorted.TestPairSumSorted" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-leetcode-patterns" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twopointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hashmapsandsets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pairSumSorted.TestPairSumSorted&quot;" />
+      <option name="_new_target" value="&quot;test_pairSumTwoSorted.TestPairSumUnsortedOnePass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-leetcode-patterns" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hashmapsandsets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -110,21 +125,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_palindrome.TestPalindrome&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_tripletSum.TestBruteForceTripletSum" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python-leetcode-patterns" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twopointers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_tripletSum.TestBruteForceTripletSum&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass" />
+        <item itemvalue="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses" />
         <item itemvalue="Python tests.Python tests for test_largestContainer.TestLargestContainer" />
         <item itemvalue="Python tests.Python tests for test_palindrome.TestPalindrome" />
         <item itemvalue="Python tests.Python tests for test_tripletSum.TestTripletSumSorted" />
-        <item itemvalue="Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum" />
-        <item itemvalue="Python tests.Python tests for test_pairSumSorted.TestPairSumSorted" />
       </list>
     </recent_temporary>
   </component>
