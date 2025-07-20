@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import timeit
 import random
 from twopointers.largestContainer import largest_container_brute_force, largest_container_two_pointers
