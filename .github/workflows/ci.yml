@@ -50,6 +50,9 @@ jobs:
     - name: Run linkedListCycleDetection performance tests
       run: |
         python fastandslow/test_linkedListCycleDetection_performance.py
+    - name: Run findLinkedListMiddleNode performance tests
+      run: |
+        python fastandslow/test_findLinkedListMiddleNode_performance.py
     - name: Comment performance results on PR
       if: github.event_name == 'pull_request'
       uses: marocchino/sticky-pull-request-comment@v2
