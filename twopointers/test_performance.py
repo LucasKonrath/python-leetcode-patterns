@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+
 import timeit
 from twopointers.pairSumSorted import bruteForce, pairSumSorted
 from twopointers.tripletSum import bruteForceTripletSum, tripletSumSorted
@@ -28,4 +32,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
