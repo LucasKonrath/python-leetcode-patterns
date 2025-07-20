@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add: update test_pairSumTwoSorted.py to include module path adjustments and add test cases for pair_sum_two_unsorted functions">
-      <change afterPath="$PROJECT_DIR$/hashmapsandsets/verifySudokuBoard.py" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="fix: correct subgrid_sets initialization in verify_sudoku_board function">
+      <change afterPath="$PROJECT_DIR$/hashmapsandsets/test_zeroStriping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmapsandsets/test_zeroStriping_performance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hashmapsandsets/zeroStriping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,21 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_largestContainer.TestLargestContainer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_pairSumSorted.TestPairSumSorted.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_palindrome.TestPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#4 on feat/add-test-pair-two-sum-hash&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_largestContainer.TestLargestContainer.executor": "Run",
+    "Python tests.Python tests for test_pairSumSorted.TestPairSumSorted.executor": "Run",
+    "Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass.executor": "Run",
+    "Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses.executor": "Run",
+    "Python tests.Python tests for test_palindrome.TestPalindrome.executor": "Run",
+    "Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum.executor": "Run",
+    "Python tests.Python tests for test_verifySudokuBoard.TestVerifySudokuBoard.executor": "Run",
+    "Python tests.Python tests for test_zeroStriping.TestZeroStripingSets.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feat/add-zero-striping"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_zeroStriping.TestZeroStripingSets">
     <configuration name="Python tests for test_largestContainer.TestLargestContainer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-leetcode-patterns" />
       <option name="ENV_FILES" value="" />
@@ -129,28 +134,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_tripletSum.TestTripletSumSorted" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_zeroStriping.TestZeroStripingSets" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-leetcode-patterns" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twopointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hashmapsandsets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_tripletSum.TestTripletSumSorted&quot;" />
+      <option name="_new_target" value="&quot;test_zeroStriping.TestZeroStripingSets&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_zeroStriping.TestZeroStripingSets" />
         <item itemvalue="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedOnePass" />
         <item itemvalue="Python tests.Python tests for test_pairSumTwoSorted.TestPairSumUnsortedTwoPasses" />
         <item itemvalue="Python tests.Python tests for test_largestContainer.TestLargestContainer" />
         <item itemvalue="Python tests.Python tests for test_palindrome.TestPalindrome" />
-        <item itemvalue="Python tests.Python tests for test_tripletSum.TestTripletSumSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -441,15 +446,50 @@
       <option name="project" value="LOCAL" />
       <updated>1753036026176</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add: implement verify_sudoku_board function to validate Sudoku boards">
+      <option name="closed" value="true" />
+      <created>1753040184702</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1753040184702</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add: implement unit tests for verify_sudoku_board function">
+      <option name="closed" value="true" />
+      <created>1753040283480</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1753040283480</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add: implement performance benchmarking for verify_sudoku_board function">
+      <option name="closed" value="true" />
+      <created>1753040290267</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1753040290267</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add: include performance tests for verifySudokuBoard in CI configuration">
+      <option name="closed" value="true" />
+      <created>1753040296955</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1753040296955</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fix: correct subgrid_sets initialization in verify_sudoku_board function">
+      <option name="closed" value="true" />
+      <created>1753040372804</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1753040372804</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add brute force solution for triplet sum problem" />
-    <MESSAGE value="add function to check if a string is a palindrome" />
-    <MESSAGE value="update .gitignore to include additional file types and ignore patterns" />
-    <MESSAGE value="update .gitignore to ignore IDE configuration files" />
-    <MESSAGE value="refactor workspace.xml to improve formatting and structure" />
     <MESSAGE value="add brute force solution to find the largest container of water" />
     <MESSAGE value="add unit tests for brute force solution to largest container problem" />
     <MESSAGE value="add two-pointer solution for largest container problem" />
@@ -470,6 +510,11 @@
     <MESSAGE value="add: update test_performance.py to include additional module paths for two pointers and hashmaps" />
     <MESSAGE value="add: update CI configuration to run performance tests for hashmaps and sets" />
     <MESSAGE value="add: update test_pairSumTwoSorted.py to include module path adjustments and add test cases for pair_sum_two_unsorted functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: update test_pairSumTwoSorted.py to include module path adjustments and add test cases for pair_sum_two_unsorted functions" />
+    <MESSAGE value="add: implement verify_sudoku_board function to validate Sudoku boards" />
+    <MESSAGE value="add: implement unit tests for verify_sudoku_board function" />
+    <MESSAGE value="add: implement performance benchmarking for verify_sudoku_board function" />
+    <MESSAGE value="add: include performance tests for verifySudokuBoard in CI configuration" />
+    <MESSAGE value="fix: correct subgrid_sets initialization in verify_sudoku_board function" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: correct subgrid_sets initialization in verify_sudoku_board function" />
   </component>
 </project>
