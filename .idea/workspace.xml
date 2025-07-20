@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add: include performance tests for reverse linked list in CI configuration">
-      <change beforePath="$PROJECT_DIR$/linkedLists/reverseLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedLists/reverseLinkedList.py" afterDir="false" />
-    </list>
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add: include recursive linked list performance tests in CI configuration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +64,7 @@
     "Python tests.Python tests for test_zeroStriping.TestZeroStripingSets.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feat/reverse-linked-list"
+    "git-widget-placeholder": "#8 on feat/reverse-linked-list"
   }
 }]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_zeroStriping.TestZeroStripingSets">
@@ -169,22 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753031592177</updated>
-    </task>
-    <task id="LOCAL-00001" summary="add initial project configuration files for Python module">
-      <option name="closed" value="true" />
-      <created>1753031632245</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1753031632245</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add brute force solution for pair sum problem">
-      <option name="closed" value="true" />
-      <created>1753031896791</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1753031896791</updated>
     </task>
     <task id="LOCAL-00003" summary="add unit tests for brute force solution in pair sum problem">
       <option name="closed" value="true" />
@@ -546,14 +528,42 @@
       <option name="project" value="LOCAL" />
       <updated>1753043046722</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="add: implement recursive linked list reversal function">
+      <option name="closed" value="true" />
+      <created>1753043084517</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043084517</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add: implement unit tests for recursive linked list reversal">
+      <option name="closed" value="true" />
+      <created>1753043276744</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043276744</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add: create performance tests for recursive linked list reversal">
+      <option name="closed" value="true" />
+      <created>1753043282138</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043282138</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add: include recursive linked list performance tests in CI configuration">
+      <option name="closed" value="true" />
+      <created>1753043286659</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043286659</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: adjust sys.path for test_performance.py to ensure module imports work correctly" />
-    <MESSAGE value="add: implement unit tests for pair_sum_unsorted_two_passes function" />
-    <MESSAGE value="add: implement pair_sum_two_unsorted_two_pass function" />
-    <MESSAGE value="refactor: update test cases to use pair_sum_two_unsorted_two_pass function" />
     <MESSAGE value="refactor: optimize pair_sum_two_unsorted_two_pass function to use a dictionary for index mapping" />
     <MESSAGE value="add: implement pair_sum_two_unsorted_one_pass function for optimized pairing" />
     <MESSAGE value="add: implement unit tests for pair_sum_two_unsorted_one_pass function" />
@@ -575,6 +585,10 @@
     <MESSAGE value="add: implement unit tests for linked list reversal functionality" />
     <MESSAGE value="add: implement performance benchmark for iterative linked list reversal" />
     <MESSAGE value="add: include performance tests for reverse linked list in CI configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: include performance tests for reverse linked list in CI configuration" />
+    <MESSAGE value="add: implement recursive linked list reversal function" />
+    <MESSAGE value="add: implement unit tests for recursive linked list reversal" />
+    <MESSAGE value="add: create performance tests for recursive linked list reversal" />
+    <MESSAGE value="add: include recursive linked list performance tests in CI configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: include recursive linked list performance tests in CI configuration" />
   </component>
 </project>
