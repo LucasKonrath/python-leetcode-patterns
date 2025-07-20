@@ -21,7 +21,7 @@ def benchmark_reverse_linked_list():
     with open("performance_results.txt", "a") as f:
         f.write(f"iterative_reversal 10000 nodes (10 runs): {t:.4f}s\n")
 
-def benchmark_reverse_linked_list_1000():
+def benchmark_reverse_linked_list_300():
     head = make_linked_list(300)
     t = timeit.timeit(lambda: iterative_reversal(head), number=10)
     print(f"iterative_reversal 300 nodes (10 runs): {t:.4f}s")
@@ -29,4 +29,5 @@ def benchmark_reverse_linked_list_1000():
         f.write(f"iterative_reversal 300 nodes (10 runs): {t:.4f}s\n")
 if __name__ == "__main__":
     benchmark_reverse_linked_list()
+    benchmark_reverse_linked_list_300()
 
