@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add: include performance tests for zero striping in CI configuration">
-      <change afterPath="$PROJECT_DIR$/linkedLists/ListNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedLists/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedLists/reverseLinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add: include performance tests for reverse linked list in CI configuration">
+      <change beforePath="$PROJECT_DIR$/linkedLists/reverseLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedLists/reverseLinkedList.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -517,14 +514,42 @@
       <option name="project" value="LOCAL" />
       <updated>1753041068584</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add: implement linked list reversal functionality">
+      <option name="closed" value="true" />
+      <created>1753042991459</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1753042991459</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add: implement unit tests for linked list reversal functionality">
+      <option name="closed" value="true" />
+      <created>1753043037436</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043037436</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add: implement performance benchmark for iterative linked list reversal">
+      <option name="closed" value="true" />
+      <created>1753043042340</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043042340</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add: include performance tests for reverse linked list in CI configuration">
+      <option name="closed" value="true" />
+      <created>1753043046722</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043046722</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add unit tests for two-pointer solution in largest container problem" />
-    <MESSAGE value="update .gitignore to ignore workspace.xml and modify RunManager configuration for largest container tests" />
-    <MESSAGE value="add performance tests for largest container solution and log results" />
-    <MESSAGE value="refactor import statement for pairSumSorted module to use two-pointers package" />
     <MESSAGE value="fix: adjust sys.path for test_performance.py to ensure module imports work correctly" />
     <MESSAGE value="add: implement unit tests for pair_sum_unsorted_two_passes function" />
     <MESSAGE value="add: implement pair_sum_two_unsorted_two_pass function" />
@@ -546,6 +571,10 @@
     <MESSAGE value="add: implement zero striping algorithm for matrix" />
     <MESSAGE value="add: implement unit tests and performance benchmarks for zero striping algorithm" />
     <MESSAGE value="add: include performance tests for zero striping in CI configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: include performance tests for zero striping in CI configuration" />
+    <MESSAGE value="add: implement linked list reversal functionality" />
+    <MESSAGE value="add: implement unit tests for linked list reversal functionality" />
+    <MESSAGE value="add: implement performance benchmark for iterative linked list reversal" />
+    <MESSAGE value="add: include performance tests for reverse linked list in CI configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: include performance tests for reverse linked list in CI configuration" />
   </component>
 </project>
