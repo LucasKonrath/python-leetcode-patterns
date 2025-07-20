@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="refactor workspace.xml to improve formatting and structure">
-      <change afterPath="$PROJECT_DIR$/twopointers/largestContainer.py" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="fix: adjust sys.path for test_performance.py to ensure module imports work correctly">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twopointers/test_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/twopointers/test_performance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,22 @@
     &quot;assignee&quot;: &quot;LucasKonrath&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/LucasKonrath/python-leetcode-patterns.git&quot;,
-    &quot;accountId&quot;: &quot;3645b17a-8078-49c6-b865-b6b26e0945c4&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LucasKonrath/python-leetcode-patterns.git",
+    "accountId": "3645b17a-8078-49c6-b865-b6b26e0945c4"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "LucasKonrath",
+    "repository": "python-leetcode-patterns"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -46,12 +57,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_largestContainer.TestLargestContainer.executor": "Run",
     "Python tests.Python tests for test_pairSumSorted.TestPairSumSorted.executor": "Run",
     "Python tests.Python tests for test_palindrome.TestPalindrome.executor": "Run",
     "Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "#3 on feat/perfomance-tests-container"
   }
 }]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_largestContainer.TestLargestContainer">
@@ -259,7 +271,71 @@
       <option name="project" value="LOCAL" />
       <updated>1753033878449</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add brute force solution to find the largest container of water">
+      <option name="closed" value="true" />
+      <created>1753033988384</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033988384</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add unit tests for brute force solution to largest container problem">
+      <option name="closed" value="true" />
+      <created>1753034037317</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034037317</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add two-pointer solution for largest container problem">
+      <option name="closed" value="true" />
+      <created>1753034087614</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034087614</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add unit tests for two-pointer solution in largest container problem">
+      <option name="closed" value="true" />
+      <created>1753034127450</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034127450</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update .gitignore to ignore workspace.xml and modify RunManager configuration for largest container tests">
+      <option name="closed" value="true" />
+      <created>1753034163427</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034163427</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add performance tests for largest container solution and log results">
+      <option name="closed" value="true" />
+      <created>1753034249366</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034249366</updated>
+    </task>
+    <task id="LOCAL-00020" summary="refactor import statement for pairSumSorted module to use two-pointers package">
+      <option name="closed" value="true" />
+      <created>1753034584438</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034584438</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix: adjust sys.path for test_performance.py to ensure module imports work correctly">
+      <option name="closed" value="true" />
+      <created>1753034656086</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1753034656086</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,6 +350,14 @@
     <MESSAGE value="update .gitignore to include additional file types and ignore patterns" />
     <MESSAGE value="update .gitignore to ignore IDE configuration files" />
     <MESSAGE value="refactor workspace.xml to improve formatting and structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor workspace.xml to improve formatting and structure" />
+    <MESSAGE value="add brute force solution to find the largest container of water" />
+    <MESSAGE value="add unit tests for brute force solution to largest container problem" />
+    <MESSAGE value="add two-pointer solution for largest container problem" />
+    <MESSAGE value="add unit tests for two-pointer solution in largest container problem" />
+    <MESSAGE value="update .gitignore to ignore workspace.xml and modify RunManager configuration for largest container tests" />
+    <MESSAGE value="add performance tests for largest container solution and log results" />
+    <MESSAGE value="refactor import statement for pairSumSorted module to use two-pointers package" />
+    <MESSAGE value="fix: adjust sys.path for test_performance.py to ensure module imports work correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: adjust sys.path for test_performance.py to ensure module imports work correctly" />
   </component>
 </project>
