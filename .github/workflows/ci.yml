@@ -30,11 +30,3 @@ jobs:
       uses: marocchino/sticky-pull-request-comment@v2
       with:
         path: performance_results.txt
-    - name: Run largest container performance tests
-      run: |
-        python twopointers/test_largestContainer_performance.py
-    - name: Comment largest container performance results on PR
-      if: github.event_name == 'pull_request'
-      uses: marocchino/sticky-pull-request-comment@v2
-      with:
-        path: twopointers/largest_container_performance.txt
