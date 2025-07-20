@@ -1,67 +1,45 @@
-# Python cache files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
+*.so
 *.egg
+*.egg-info/
+dist/
+build/
 
-# PyInstaller
-*.manifest
-*.spec
+# Virtual environments
+venv/
+.env/
+.venv/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# VS Code settings
+.vscode/
 
-# Unit test / coverage reports
+# macOS system files
+.DS_Store
+
+# Python test and coverage reports
 htmlcov/
-.tox/
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+test-results/
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# GitHub workflow logs
+.github/
 
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Ignore environment and secret files
+.env.local
+.env.*.local
+
+# Ignore log files
+*.log
+
+# Ignore performance results
+performance_results.txt
+
