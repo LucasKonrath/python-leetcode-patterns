@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add: include recursive linked list performance tests in CI configuration" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="fix: optimize performance benchmark for recursive linked list reversal">
+      <change beforePath="$PROJECT_DIR$/linkedLists/test_recursiveReverseLinkedList_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedLists/test_recursiveReverseLinkedList_performance.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,22 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753031592177</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add unit tests for brute force solution in pair sum problem">
-      <option name="closed" value="true" />
-      <created>1753031945624</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1753031945624</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add optimized two-pointer solution for pair sum problem in sorted array">
-      <option name="closed" value="true" />
-      <created>1753031969789</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1753031969789</updated>
     </task>
     <task id="LOCAL-00005" summary="add unit tests for pairSumSorted function in test_pairSumSorted.py">
       <option name="closed" value="true" />
@@ -560,12 +546,26 @@
       <option name="project" value="LOCAL" />
       <updated>1753043286659</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add: implement performance benchmark for recursive linked list reversal">
+      <option name="closed" value="true" />
+      <created>1753043429268</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043429268</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix: optimize performance benchmark for recursive linked list reversal">
+      <option name="closed" value="true" />
+      <created>1753043512993</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1753043512993</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: optimize pair_sum_two_unsorted_two_pass function to use a dictionary for index mapping" />
-    <MESSAGE value="add: implement pair_sum_two_unsorted_one_pass function for optimized pairing" />
     <MESSAGE value="add: implement unit tests for pair_sum_two_unsorted_one_pass function" />
     <MESSAGE value="add: implement performance benchmark for pair_sum_two_unsorted functions" />
     <MESSAGE value="add: implement benchmark for pair_sum_two_unsorted functions" />
@@ -589,6 +589,8 @@
     <MESSAGE value="add: implement unit tests for recursive linked list reversal" />
     <MESSAGE value="add: create performance tests for recursive linked list reversal" />
     <MESSAGE value="add: include recursive linked list performance tests in CI configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: include recursive linked list performance tests in CI configuration" />
+    <MESSAGE value="add: implement performance benchmark for recursive linked list reversal" />
+    <MESSAGE value="fix: optimize performance benchmark for recursive linked list reversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: optimize performance benchmark for recursive linked list reversal" />
   </component>
 </project>
