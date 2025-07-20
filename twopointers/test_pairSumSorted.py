@@ -1,5 +1,5 @@
 import unittest
-from pairSumSorted import bruteForce, pairSumSorted
+from twopointers.pairSumSorted import bruteForce, pairSumSorted
 
 class TestPairSumSorted(unittest.TestCase):
     def test_found_pair(self):
