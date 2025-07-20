@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="fix: update performance benchmark for iterative linked list reversal to 300 nodes">
-      <change afterPath="$PROJECT_DIR$/linkedLists/removeKLastNode.py" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="ci: add performance tests for remove_k_last_node function">
+      <change afterPath="$PROJECT_DIR$/linkedlistintersection/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedlistintersection/linkedListIntersection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
     "Python tests.Python tests for test_zeroStriping.TestZeroStripingSets.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#8 on feat/reverse-linked-list"
+    "git-widget-placeholder": "#9 on feat/add-kthlast-node"
   }
 }]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_zeroStriping.TestZeroStripingSets">
@@ -170,38 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753031592177</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add function to check if a string is a palindrome">
-      <option name="closed" value="true" />
-      <created>1753033778469</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1753033778469</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update .gitignore to include additional file types and ignore patterns">
-      <option name="closed" value="true" />
-      <created>1753033805507</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1753033805507</updated>
-    </task>
-    <task id="LOCAL-00011" summary="update .gitignore to ignore IDE configuration files">
-      <option name="closed" value="true" />
-      <created>1753033832933</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1753033832933</updated>
-    </task>
-    <task id="LOCAL-00012" summary="refactor workspace.xml to improve formatting and structure">
-      <option name="closed" value="true" />
-      <created>1753033840825</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1753033840825</updated>
     </task>
     <task id="LOCAL-00013" summary="refactor workspace.xml to improve formatting and structure">
       <option name="closed" value="true" />
@@ -563,14 +532,42 @@
       <option name="project" value="LOCAL" />
       <updated>1753043821746</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="feat: add function to remove the k-th last node from a linked list">
+      <option name="closed" value="true" />
+      <created>1753050236755</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1753050236755</updated>
+    </task>
+    <task id="LOCAL-00059" summary="test: add unit tests for remove_k_last_node function">
+      <option name="closed" value="true" />
+      <created>1753050242933</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1753050242933</updated>
+    </task>
+    <task id="LOCAL-00060" summary="test: add performance benchmark for remove_k_last_node function">
+      <option name="closed" value="true" />
+      <created>1753050248374</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1753050248374</updated>
+    </task>
+    <task id="LOCAL-00061" summary="ci: add performance tests for remove_k_last_node function">
+      <option name="closed" value="true" />
+      <created>1753050253793</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1753050253793</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add: update test_performance.py to include additional module paths for two pointers and hashmaps" />
-    <MESSAGE value="add: update CI configuration to run performance tests for hashmaps and sets" />
-    <MESSAGE value="add: update test_pairSumTwoSorted.py to include module path adjustments and add test cases for pair_sum_two_unsorted functions" />
-    <MESSAGE value="add: implement verify_sudoku_board function to validate Sudoku boards" />
     <MESSAGE value="add: implement unit tests for verify_sudoku_board function" />
     <MESSAGE value="add: implement performance benchmarking for verify_sudoku_board function" />
     <MESSAGE value="add: include performance tests for verifySudokuBoard in CI configuration" />
@@ -592,6 +589,10 @@
     <MESSAGE value="fix: update performance benchmarks for recursive and iterative linked list reversal to 1000 nodes" />
     <MESSAGE value="fix: update performance benchmarks for recursive and iterative linked list reversal to 300 nodes" />
     <MESSAGE value="fix: update performance benchmark for iterative linked list reversal to 300 nodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: update performance benchmark for iterative linked list reversal to 300 nodes" />
+    <MESSAGE value="feat: add function to remove the k-th last node from a linked list" />
+    <MESSAGE value="test: add unit tests for remove_k_last_node function" />
+    <MESSAGE value="test: add performance benchmark for remove_k_last_node function" />
+    <MESSAGE value="ci: add performance tests for remove_k_last_node function" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: add performance tests for remove_k_last_node function" />
   </component>
 </project>
