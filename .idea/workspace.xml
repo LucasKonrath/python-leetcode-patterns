@@ -55,7 +55,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum">
+  <component name="RunManager" selected="Python tests.Python tests for test_tripletSum.TestTripletSumSorted">
     <configuration name="Python tests for test_pairSumSorted.TestPairSumSorted" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-leetcode-patterns" />
       <option name="ENV_FILES" value="" />
@@ -86,8 +86,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_tripletSum.TestTripletSumSorted" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-leetcode-patterns" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twopointers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_tripletSum.TestTripletSumSorted&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_tripletSum.TestTripletSumSorted" />
         <item itemvalue="Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum" />
         <item itemvalue="Python tests.Python tests for test_pairSumSorted.TestPairSumSorted" />
       </list>
