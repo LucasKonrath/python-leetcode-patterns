@@ -29,6 +29,9 @@ jobs:
     - name: Run verifySudokuBoard performance tests
       run: |
         python hashmapsandsets/test_verifySudokuBoard_performance.py
+    - name: Run zeroStriping performance tests
+      run: |
+        python hashmapsandsets/test_zeroStriping_performance.py
     - name: Comment performance results on PR
       if: github.event_name == 'pull_request'
       uses: marocchino/sticky-pull-request-comment@v2
