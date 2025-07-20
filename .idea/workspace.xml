@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="add brute force solution for triplet sum problem">
-      <change afterPath="$PROJECT_DIR$/twopointers/test_tripletSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twopointers/tripletSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/twopointers/tripletSum.py" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="refactor workspace.xml to improve formatting and structure">
+      <change afterPath="$PROJECT_DIR$/twopointers/largestContainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_pairSumSorted.TestPairSumSorted.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_pairSumSorted.TestPairSumSorted.executor": "Run",
+    "Python tests.Python tests for test_palindrome.TestPalindrome.executor": "Run",
+    "Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_tripletSum.TestTripletSumSorted">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_palindrome.TestPalindrome">
     <configuration name="Python tests for test_pairSumSorted.TestPairSumSorted" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-leetcode-patterns" />
       <option name="ENV_FILES" value="" />
@@ -68,6 +67,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_pairSumSorted.TestPairSumSorted&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_palindrome.TestPalindrome" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-leetcode-patterns" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twopointers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_palindrome.TestPalindrome&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -103,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_palindrome.TestPalindrome" />
         <item itemvalue="Python tests.Python tests for test_tripletSum.TestTripletSumSorted" />
         <item itemvalue="Python tests.Python tests for test_tripletSum.TestBruteForceTripletSum" />
         <item itemvalue="Python tests.Python tests for test_pairSumSorted.TestPairSumSorted" />
@@ -188,7 +203,47 @@
       <option name="project" value="LOCAL" />
       <updated>1753032234131</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add function to check if a string is a palindrome">
+      <option name="closed" value="true" />
+      <created>1753033778469</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033778469</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update .gitignore to include additional file types and ignore patterns">
+      <option name="closed" value="true" />
+      <created>1753033805507</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033805507</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update .gitignore to ignore IDE configuration files">
+      <option name="closed" value="true" />
+      <created>1753033832933</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033832933</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactor workspace.xml to improve formatting and structure">
+      <option name="closed" value="true" />
+      <created>1753033840825</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033840825</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor workspace.xml to improve formatting and structure">
+      <option name="closed" value="true" />
+      <created>1753033878449</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033878449</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +254,10 @@
     <MESSAGE value="add unit tests for pairSumSorted function in test_pairSumSorted.py" />
     <MESSAGE value="add CI configuration for Python package with unit test execution" />
     <MESSAGE value="add brute force solution for triplet sum problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add brute force solution for triplet sum problem" />
+    <MESSAGE value="add function to check if a string is a palindrome" />
+    <MESSAGE value="update .gitignore to include additional file types and ignore patterns" />
+    <MESSAGE value="update .gitignore to ignore IDE configuration files" />
+    <MESSAGE value="refactor workspace.xml to improve formatting and structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor workspace.xml to improve formatting and structure" />
   </component>
 </project>
