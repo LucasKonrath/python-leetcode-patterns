@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="ci: add performance tests for finding the middle node in a linked list">
-      <change afterPath="$PROJECT_DIR$/fastandslow/happyNumber.py" afterDir="false" />
+    <list default="true" id="968c3a0c-1ac5-4706-b7c3-e067ace7dd5d" name="Changes" comment="ci: add performance tests for happy number functionality">
+      <change afterPath="$PROJECT_DIR$/slidingwindow/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slidingwindow/substringAnagrams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
     "Python tests.Python tests for test_zeroStriping.TestZeroStripingSets.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feat/add-happy-number"
+    "git-widget-placeholder": "feat/sliding-window"
   }
 }]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_zeroStriping.TestZeroStripingSets">
@@ -169,38 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753031592177</updated>
-    </task>
-    <task id="LOCAL-00025" summary="refactor: update test cases to use pair_sum_two_unsorted_two_pass function">
-      <option name="closed" value="true" />
-      <created>1753035564673</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1753035564673</updated>
-    </task>
-    <task id="LOCAL-00026" summary="refactor: optimize pair_sum_two_unsorted_two_pass function to use a dictionary for index mapping">
-      <option name="closed" value="true" />
-      <created>1753035606941</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1753035606941</updated>
-    </task>
-    <task id="LOCAL-00027" summary="add: implement pair_sum_two_unsorted_one_pass function for optimized pairing">
-      <option name="closed" value="true" />
-      <created>1753035644771</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1753035644771</updated>
-    </task>
-    <task id="LOCAL-00028" summary="add: implement unit tests for pair_sum_two_unsorted_one_pass function">
-      <option name="closed" value="true" />
-      <created>1753035664800</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1753035664800</updated>
     </task>
     <task id="LOCAL-00029" summary="add: implement performance benchmark for pair_sum_two_unsorted functions">
       <option name="closed" value="true" />
@@ -562,14 +532,42 @@
       <option name="project" value="LOCAL" />
       <updated>1753053046314</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="feat: implement function to determine if a number is a happy number">
+      <option name="closed" value="true" />
+      <created>1753228604363</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1753228604363</updated>
+    </task>
+    <task id="LOCAL-00075" summary="test: add unit tests for happy number functionality">
+      <option name="closed" value="true" />
+      <created>1753228610233</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1753228610233</updated>
+    </task>
+    <task id="LOCAL-00076" summary="ci: add performance benchmark for happy number function">
+      <option name="closed" value="true" />
+      <created>1753228615687</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1753228615687</updated>
+    </task>
+    <task id="LOCAL-00077" summary="ci: add performance tests for happy number functionality">
+      <option name="closed" value="true" />
+      <created>1753228620815</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1753228620815</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add: implement unit tests for recursive linked list reversal" />
-    <MESSAGE value="add: create performance tests for recursive linked list reversal" />
-    <MESSAGE value="add: include recursive linked list performance tests in CI configuration" />
-    <MESSAGE value="add: implement performance benchmark for recursive linked list reversal" />
     <MESSAGE value="fix: optimize performance benchmark for recursive linked list reversal" />
     <MESSAGE value="fix: adjust performance benchmark for recursive linked list reversal to 1000 nodes" />
     <MESSAGE value="fix: update performance benchmarks for recursive and iterative linked list reversal to 1000 nodes" />
@@ -591,6 +589,10 @@
     <MESSAGE value="test: add unit tests for finding the middle node of a linked list" />
     <MESSAGE value="ci: add performance benchmark for finding the middle node in a linked list" />
     <MESSAGE value="ci: add performance tests for finding the middle node in a linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: add performance tests for finding the middle node in a linked list" />
+    <MESSAGE value="feat: implement function to determine if a number is a happy number" />
+    <MESSAGE value="test: add unit tests for happy number functionality" />
+    <MESSAGE value="ci: add performance benchmark for happy number function" />
+    <MESSAGE value="ci: add performance tests for happy number functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: add performance tests for happy number functionality" />
   </component>
 </project>
